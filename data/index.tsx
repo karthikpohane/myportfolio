@@ -266,7 +266,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/mail.svg",
-    link: "mailto:kartikpohane0612@gmail.com",
+    link: "/mailto:kartikpohane0612@gmail.com",
     name: "Email",
   },
   {
@@ -280,12 +280,6 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/karthik-pohane-15580a220/",
     name: "LinkedIn",
-  },
-  {
-    id: 4,
-    img: "/twit.svg",
-    link: "https://twitter.com/karthikpohane",
-    name: "Twitter",
   },
   {
     id: 5,

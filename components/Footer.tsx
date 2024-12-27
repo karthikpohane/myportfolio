@@ -66,9 +66,15 @@ const Footer = () => {
           {socialMedia.map((info) => (
             <a
               key={info.id}
-              href={info.id === 1 ? undefined : info.link}
-              target={info.id === 1 ? undefined : "_blank"}
-              rel={info.id === 1 ? undefined : "noopener noreferrer"}
+              href={
+                info.id === 1
+                  ? "https://mail.google.com/mail/u/0/?view=cm&fs=1&to=kartikpohane0612@gmail.com"
+                  : info.link
+              }
+              target={info.id === 1 ? "_blank" : "_blank"}
+              rel={
+                info.id === 1 ? "noopener noreferrer" : "noopener noreferrer"
+              }
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 hover:bg-purple hover:border-purple"
               aria-label={info.name}
               onClick={() => {
