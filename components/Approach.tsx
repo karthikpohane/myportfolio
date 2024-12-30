@@ -2,7 +2,7 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
+// import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
@@ -18,17 +18,17 @@ const Approach = () => {
           icon={<AceternityIcon order="Phase 1" />}
           des="The first phase involves collaborating to define project goals, target users, and technical requirements. Together, we'll plan the system architecture, choose technologies, and set clear milestones."
         >
-          <CanvasRevealEffect
+          {/* <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
-          />
+          /> */}
         </Card>
         <Card
           title="Development & Iteration"
           icon={<AceternityIcon order="Phase 2" />}
           des="After finalizing the plan, I begin the development process. I follow agile principles, iterating over code, testing frequently, and integrating feedback from stakeholders to refine and improve the product."
         >
-          <CanvasRevealEffect
+          {/* <CanvasRevealEffect
             animationSpeed={3}
             // change bg-black to bg-pink-900
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
@@ -38,7 +38,7 @@ const Approach = () => {
               [221, 255, 247],
             ]}
             dotSize={2}
-          />
+          /> */}
           {/* Radial gradient for the cute fade */}
           {/* remove this one */}
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
@@ -48,11 +48,11 @@ const Approach = () => {
           icon={<AceternityIcon order="Phase 3" />}
           des="Once the product is ready, I oversee the deployment process, ensuring smooth integration with production environments. Post-launch, I continue to monitor performance and address any issues as they arise."
         >
-          <CanvasRevealEffect
+          {/* <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
-          />
+          /> */}
         </Card>
       </div>
     </section>
