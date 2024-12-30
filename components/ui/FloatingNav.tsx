@@ -16,7 +16,7 @@ export const FloatingNav = ({
   navItems: {
     name: string;
     link: string;
-    icon?: JSX.Element;
+    icon?: React.ReactNode; // Updated type
     tooltip?: string; // New field for tooltip
     target?: "_self" | "_blank"; // New field for link target
   }[];
@@ -29,7 +29,7 @@ export const FloatingNav = ({
 
   useMotionValueEvent(scrollYProgress, "change", (current) => {
     if (typeof current === "number") {
-      let direction = current - scrollYProgress.getPrevious()!;
+      const direction = current - scrollYProgress.getPrevious()!;
       if (scrollYProgress.get() < 0.05) {
         setVisible(true);
       } else {
