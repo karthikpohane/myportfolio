@@ -44,7 +44,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "A tech enthusiast with a deep passion for development and creating innovative solutions.",
+    title:
+      "A tech enthusiast with a deep passion for development and creating innovative solutions.",
     description: "",
     className: "lg:col-span-3 md:col-span-3 md:row-span-0.5",
     imgClassName: "",
@@ -133,7 +134,13 @@ export const projects = [
     title: "ONEpurity - Pollution Detection System",
     des: "Designed a deep learning system to detect and localize pollutants in real time using TensorFlow and CNNs, achieving 90% accuracy in pollutant identification.",
     img: "/onepurity.jpg",
-    iconLists: ["/python.svg","/pandas.svg", "/opencv.svg", "/tensorflow.svg", "/oneAPI.png"],
+    iconLists: [
+      "/python.svg",
+      "/pandas.svg",
+      "/opencv.svg",
+      "/tensorflow.svg",
+      "/oneAPI.png",
+    ],
     link: "https://github.com/karthikpohane/ONEpurity",
   },
   {
@@ -141,7 +148,14 @@ export const projects = [
     title: "CastClimate - E-commerce for Farmers",
     des: "Built an e-commerce platform enabling farmers to sell products directly, reducing middleman costs by 15%. Integrated a crop suggestion system for region-specific recommendations.",
     img: "/castclimate.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg","/php.svg", "mysql.svg","/mgsql.svg"],
+    iconLists: [
+      "/html.svg",
+      "/css.svg",
+      "/js.svg",
+      "/php.svg",
+      "mysql.svg",
+      "/mgsql.svg",
+    ],
     link: "https://github.com/karthikpohane/CastClimate",
   },
   {
@@ -160,21 +174,21 @@ export const testimonials = [
       "I worked closely with Karthik Pohane during his internship at Meltwater, where he excelled in Product Support engineering and custom solutions development. Karthik quickly grasped complex technologies, contributing significantly to projects. His expertise in the MERN stack, API configuration, crawling functionalities, and CI/CD pipelines using GitHub Actions was exceptional. He also showcased proficiency in AWS services like EC2, EBS, and Route 53. As a Product Support Engineer, Karthik resolved issues effectively while collaborating with Sales and clients. I highly recommend him for roles in custom solutions, MERN stack, AWS, and Product Support engineering.",
     name: "Pritesh Shetty",
     title: "Manager, Product Support Engineering  @ Meltwater",
-    image:"/pritesh.jpg",
+    image: "/pritesh.jpg",
   },
   {
     quote:
       "Karthik is a avid learner and adapts to all kinda situations, in my privileged time to work with him i have learnt to so much about team building and efficiency over effectiveness. \nI recommend him as a guy you can hire and will adapt and evolve in the space to provide great results.",
     name: "Aditya Kumar Gope",
     title: "Software Engineer II @ Bryckel",
-    image:"/aditya.jpg",
+    image: "/aditya.jpg",
   },
   {
     quote:
       "Karthik Pohane has been an exceptional intern at Meltwater, consistently demonstrating problem-solving skills and professionalism. He excelled in debugging complex issues and led his project team with innovative solutions. Karthik’s contributions exceeded expectations, making him a valuable asset. I highly recommend him for future endeavors.",
     name: "Sylvia Navachudar",
     title: "Senior Product Support Engineer & Team Lead @ Meltwater",
-    image:"/sylvia.jpg",
+    image: "/sylvia.jpg",
   },
   {
     quote:
@@ -183,9 +197,15 @@ export const testimonials = [
       "I am confident that Karthik will excel in any endeavour, and I highly recommend him as a valuable asset to any team.",
     name: "Akash Warma",
     title: "Co-Founder @ Sellermate.ai",
-    image:"/akash.jpg",
+    image: "/akash.jpg",
   },
-
+  {
+    quote:
+      "I had the opportunity to work with Karthik during an inter-college hackathon while pursuing my MCA at Christ University. In our project, Karthik contributed significantly with his innovative ideas and dedicated effort. Throughout the process, I observed his relentless determination in tackling bugs and his positive approach to exploring new ideas, always paired with precision in time management. As a result of his contributions, we were awarded the second-best research paper at an IEEE International Conference for our project.\n\nKarthik's progress has been consistently upward since his undergraduate days, demonstrating his continuous growth and commitment. I firmly believe that he is a highly deserving individual for a technical role in the corporate world.",
+    name: "Shivam Jakkanwar",
+    title: "SDE - I @ Idea Elan",
+    image: "/shivam.jpg",
+  },
   {
     quote:
       "I had the pleasure of working with Karthik Pohane for six months and can confidently attest to his remarkable skills. As an intern, Karthik consistently demonstrated a strong work ethic and excellent communication abilities. His adaptability and dedication stood out, especially during project work, where his expertise and passion significantly impacted the team.\n" +
@@ -193,7 +213,7 @@ export const testimonials = [
       "I highly recommend Karthik to anyone seeking a talented, reliable, and collaborative professional.",
     name: "Livin Varghese",
     title: "Senior Product Support Engineer & Team Lead @ Meltwater",
-    image:"/livin.jpg",
+    image: "/livin.jpg",
   },
 ];
 
@@ -231,35 +251,34 @@ export const companies = [
 ];
 
 export const workExperience = [
-{
+  {
     id: 1,
     title: "Software Engineering Intern",
     desc: "Developed dynamic web applications using React.js and TypeScript, reducing page load times by 20%. Optimized API response times by 15% through efficient GraphQL queries and mutations, improving frontend-backend communication.",
     className: "md:col-span-2",
     thumbnail: "/sellermatelogo.png",
-},
-{
+  },
+  {
     id: 2,
     title: "Product Support Engineer Intern",
     desc: "Resolved 50+ customer support tickets weekly with JIRA, reducing resolution time by 25%. Led a content tracking and crawling project using APIs deployed on AWS Beanstalk, improving content delivery speeds by 15%.",
     className: "md:col-span-2",
     thumbnail: "/meltwaterlogo.png",
-},
-{
+  },
+  {
     id: 3,
     title: "Tableau Trainer",
     desc: "Delivered comprehensive Tableau training workshops to 30+ data analysts, focusing on advanced techniques like interactive dashboards and data integration. Improved reporting timelines by 20% and increased team efficiency by 35%.",
     className: "md:col-span-2",
     thumbnail: "hendryharvinlogo.png",
-},
-{
+  },
+  {
     id: 4,
     title: "Freelance Developer (Various Projects)",
     desc: "Designed and developed software solutions including an e-commerce platform, pollution detection system, and music streaming app using modern web and mobile technologies to meet client needs.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
-},
-
+  },
 ];
 
 export const socialMedia = [
@@ -480,7 +499,7 @@ export const technologyLogos = [
     name: "Linux",
     logo: "/linux.svg", // Add logo path for Linux if available
   },
-  
+
   // Additional technologies
   {
     id: 35,
@@ -503,5 +522,3 @@ export const technologyLogos = [
     logo: "/android.svg",
   },
 ];
-
-
