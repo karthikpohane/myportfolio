@@ -3,7 +3,7 @@ import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaLocationArrow, FaArrowDown } from "react-icons/fa";
 import { summary } from "@/data";
 
 const Hero = () => {
@@ -66,10 +66,17 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="/Karthik_Pohane_updated.pdf" download>
+            <a href="/Karthik_Pohane_Updated.pdf" target="_blank" rel="noopener noreferrer">
+              <MagicButton
+                title="View My Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="/Karthik_Pohane_Updated.pdf" download>
               <MagicButton
                 title="Download CV"
-                icon={<FaLocationArrow />}
+                icon={<FaArrowDown />}
                 position="right"
               />
             </a>
