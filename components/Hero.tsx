@@ -66,7 +66,7 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="/KarthikPohaneResume.pdf" download>
+            <a href="/Karthik_Pohane_updated.pdf" download>
               <MagicButton
                 title="Download CV"
                 icon={<FaLocationArrow />}
