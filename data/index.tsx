@@ -253,31 +253,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineering Intern",
+    title: "Product Engineer (Backend)",
+    desc: "Architected and deployed scalable serverless APIs using AWS Lambda and FastAPI, handling 50K+ requests daily with 99.9% uptime. Built Nudge, a custom notification system processing 100K+ notifications daily. Automated workflows with 15+ Python scripts, reducing manual task time by 20 hours/week.",
+    className: "md:col-span-2",
+    thumbnail: "/sharpsell-bg.png",
+  },
+  {
+    id: 2,
+    title: "Software Engineering",
     desc: "Developed dynamic web applications using React.js and TypeScript, reducing page load times by 20%. Optimized API response times by 15% through efficient GraphQL queries and mutations, improving frontend-backend communication.",
     className: "md:col-span-2",
     thumbnail: "/sellermatelogo.png",
   },
   {
-    id: 2,
+    id: 3,
     title: "Product Support Engineer Intern",
     desc: "Resolved 50+ customer support tickets weekly with JIRA, reducing resolution time by 25%. Led a content tracking and crawling project using APIs deployed on AWS Beanstalk, improving content delivery speeds by 15%.",
     className: "md:col-span-2",
     thumbnail: "/meltwaterlogo.png",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tableau Trainer",
     desc: "Delivered comprehensive Tableau training workshops to 30+ data analysts, focusing on advanced techniques like interactive dashboards and data integration. Improved reporting timelines by 20% and increased team efficiency by 35%.",
     className: "md:col-span-2",
     thumbnail: "hendryharvinlogo.png",
-  },
-  {
-    id: 4,
-    title: "Freelance Developer (Various Projects)",
-    desc: "Designed and developed software solutions including an e-commerce platform, pollution detection system, and music streaming app using modern web and mobile technologies to meet client needs.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -316,208 +316,208 @@ export const technologyLogos = [
     logo: "/clag.svg", // Add logo path for C/C++ if available
   },
   {
-    id: 1,
+    id: 2,
     name: "C++",
     logo: "/cpp.svg", // Add logo path for C/C++ if available
   },
   {
-    id: 2,
+    id: 3,
     name: "Java",
     logo: "/java.svg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Python",
     logo: "/python.svg",
   },
   {
-    id: 4,
+    id: 5,
     name: "JavaScript",
     logo: "/js.svg",
   },
   {
-    id: 5,
+    id: 6,
     name: "TypeScript",
     logo: "/ts.svg", // Add logo path for TypeScript if available
   },
 
   // Frontend
   {
-    id: 6,
+    id: 7,
     name: "React.js",
     logo: "/re.svg",
   },
   {
-    id: 7,
+    id: 8,
     name: "HTML",
     logo: "/html.svg",
   },
   {
-    id: 8,
+    id: 9,
     name: "CSS",
     logo: "/css.svg",
   },
   {
-    id: 9,
+    id: 10,
     name: "Bootstrap",
     logo: "/bootstrap.svg", // Add logo path for Bootstrap if available
   },
   {
-    id: 10,
+    id: 11,
     name: "Next.js",
     logo: "/next.svg", // Add logo path for Next.js if available
   },
   {
-    id: 11,
+    id: 12,
     name: "MUI",
     logo: "/mui.svg", // Add logo path for MUI if available
   },
   {
-    id: 12,
+    id: 13,
     name: "Formik",
     logo: "/formick.png", // Add logo path for Formik if available
   },
   {
-    id: 13,
+    id: 14,
     name: "Redux",
     logo: "/redux.svg", // Add logo path for Redux if available
   },
 
   // Backend
   {
-    id: 14,
+    id: 15,
     name: "Node.js",
     logo: "/node.svg",
   },
   {
-    id: 15,
+    id: 16,
     name: "Express.js",
     logo: "/express.svg",
   },
   {
-    id: 16,
+    id: 17,
     name: "RESTful APIs",
     logo: "/restAPI.jpg", // Add logo path for REST APIs if available
   },
   {
-    id: 17,
+    id: 18,
     name: "GraphQL",
     logo: "/graphql.svg", // Add logo path for GraphQL if available
   },
 
   // Databases
   {
-    id: 18,
+    id: 19,
     name: "MongoDB",
     logo: "/mongodb.svg",
   },
   {
-    id: 19,
+    id: 20,
     name: "MySQL",
     logo: "/mysql.svg",
   },
   {
-    id: 20,
+    id: 21,
     name: "Firebase",
     logo: "/firebase.svg",
   },
 
   // Cloud Platforms
   {
-    id: 21,
+    id: 22,
     name: "AWS",
     logo: "/aws.svg",
   },
   {
-    id: 22,
+    id: 23,
     name: "Google Cloud Platform",
     logo: "/google_cloud.svg", // Add logo path for GCP if available
   },
 
   // DevOps Tools
   {
-    id: 23,
+    id: 24,
     name: "Docker",
     logo: "/dock.svg",
   },
   {
-    id: 24,
+    id: 25,
     name: "Git",
     logo: "/git.svg",
   },
   {
-    id: 25,
+    id: 26,
     name: "JIRA",
     logo: "/jira.svg",
   },
   {
-    id: 26,
+    id: 27,
     name: "Postman",
     logo: "/postman.svg", // Add logo path for Postman if available
   },
 
   // Development Tools
   {
-    id: 27,
+    id: 28,
     name: "VS Code",
     logo: "/vscode.svg", // Add logo path for VS Code if available
   },
   {
-    id: 28,
+    id: 29,
     name: "IntelliJ",
     logo: "/intellij.svg", // Add logo path for IntelliJ if available
   },
   {
-    id: 29,
+    id: 30,
     name: "Eclipse",
     logo: "/eclipse.svg", // Add logo path for Eclipse if available
   },
   {
-    id: 30,
+    id: 31,
     name: "Colab",
     logo: "/colab.png", // Add logo path for Colab if available
   },
   {
-    id: 31,
+    id: 32,
     name: "Jupyter",
     logo: "/jupyter.svg", // Add logo path for Jupyter if available
   },
   {
-    id: 32,
+    id: 33,
     name: "Android Studio",
     logo: "/androidstudios.png", // Add logo path for Android Studio if available
   },
 
   // Operating Systems
   {
-    id: 33,
+    id: 34,
     name: "Windows",
     logo: "/windows.png", // Add logo path for Windows if available
   },
   {
-    id: 34,
+    id: 35,
     name: "Linux",
     logo: "/linux.svg", // Add logo path for Linux if available
   },
 
   // Additional technologies
   {
-    id: 35,
+    id: 36,
     name: "OneAPI",
     logo: "/oneAPI.png",
   },
   {
-    id: 36,
+    id: 37,
     name: "PHP",
     logo: "/php.svg",
   },
   {
-    id: 37,
+    id: 38,
     name: "MSSQL",
     logo: "/mgsql.svg",
   },
   {
-    id: 38,
+    id: 39,
     name: "Android",
     logo: "/android.svg",
   },

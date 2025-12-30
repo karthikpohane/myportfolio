@@ -66,14 +66,14 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="/Karthik_Pohane_Updated.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/KarthikPohane_BE_SDE1.pdf" target="_blank" rel="noopener noreferrer">
               <MagicButton
                 title="View My Resume"
                 icon={<FaLocationArrow />}
                 position="right"
               />
             </a>
-            <a href="/Karthik_Pohane_Updated.pdf" download>
+            <a href="/KarthikPohane_BE_SDE1.pdf" download>
               <MagicButton
                 title="Download CV"
                 icon={<FaArrowDown />}
